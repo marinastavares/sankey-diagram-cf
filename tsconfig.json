@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "jsx": "preserve",
+    "lib": [
+      "es2017",
+      "es2018.promise",
+      "es2019",
+      "es2020.promise",
+      "dom",
+      "dom.iterable",
+      "esnext.asynciterable",
+      "webworker"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strict": false,
+    "target": "esnext"
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./types/*.d.ts"]
+}
